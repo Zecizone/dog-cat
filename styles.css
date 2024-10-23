@@ -21,6 +21,10 @@ body {
     flex-direction: column;
     height: 100vh;
     background-color: #f0f0f0;
+    max-width: 1220px;
+	margin: 0 auto;
+	padding: 0 10px;
+	height: 100%;
 }
 
 .gallery {
@@ -28,11 +32,11 @@ body {
 }
 
 .gallery__title {
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .gallery__button {
-    margin: 10px;
+    margin: 20px;
     padding: 10px 20px;
     background-color: #007bff;
     color: white;
